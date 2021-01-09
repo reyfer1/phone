@@ -1,0 +1,145 @@
+
+:root{
+    --header-height: 3rem;
+    --font-semi: 600;
+    --font-bold: 700;
+}
+
+
+
+/*=== colors ===*/
+:root{
+    --first-color: #e55947;
+    --first-color-alt: #d2321e;
+    --white-color: #fafaff;
+    --dark-color: #101010;
+    --dark-color-light: #606060;
+    --gray-color: #f0f1f3;
+}
+
+.lolly{
+    margin-top: 0;
+    height: 27px;
+}
+
+
+@media screen and (min-width: 768px){
+    .featured__container{
+        margin-top: 20%;
+        left: 30%;
+    }
+}
+
+:root{
+    --body-font: sans-serif;
+    --big-font-size: 3rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .75rem;
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        --body-font: sans-serif;
+        --big-font-size: 6rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .813rem;
+    }
+}
+
+:root{
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+}
+
+:root{
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*== base ==*/
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 1rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+h1,h2,p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.page{
+   height: 100vh;
+   width: 100%;
+   background: #fff;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+}
+.form{
+   width: 340px;
+   height: 250px;
+   top: 25%;
+   position: relative;
+   margin: auto;
+   background: #fff;
+   padding: 10px;
+   border-radius: 20px;
+}
+  
+
+#myInput{
+   width: 90%;
+   padding: 5px -2px;
+   margin: 25px 10px;
+   border-left: 0;
+   border-right: 0;
+   border-top: 0;
+   border-bottom: 1px solid #999;
+   outline: none;
+   background: transparent;
+  }
+.submit-btn{
+   width: 76%;
+   padding: 20px 7px;
+   cursor: pointer;
+   display: block;
+   margin: 40px 40px;
+   background: #069c54;
+   border: 0;
+   outline: none;
+   border-radius: 10px;
+   transition: all 0.3s;
+   
+}
